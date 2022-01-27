@@ -1,0 +1,35 @@
+<xml>
+    <assignment name="add">
+        <language>Python</language>
+        <title>Python Assignment 1</title>
+        <text>Create a function that has two parameters ('a' and 'b') and returns a + b.</text>
+        <parameters>a b</parameters>
+        <tests>
+            <test name="test1">
+                <input>3 5</input>
+                <output>8</output>
+                <points>2</points>
+            </test>
+            <test name="test2">
+                <input>3 10</input>
+                <output>13</output>
+                <points>2</points>
+            </test>
+            <test name="test3">
+                <input>4 40</input>
+                <output>44</output>
+                <points>2</points>
+            </test>
+            <test name="test4">
+                <input>3.3 5.7</input>
+                <output>10</output>
+                <points>2</points>
+            </test>
+            <test name="test5">
+                <input>90 1000</input>
+                <output>1090</output>
+                <points>2</points>
+            </test>
+        </tests>
+    </assignment>
+</xml>
