@@ -77,13 +77,14 @@ def test():
                 output = output.split(" ")
                 for i in range(0, len(output)):
                     output[i] = int(output[i])
-                if (output == list(function(*p_input))):
+                if (output == function(*p_input)):
                     obtained_points += int(points)
                     grades[s] += obtained_points
             
             print('-Obtained {} points out of {} maximum points'.format(obtained_points, points))
             print(50 * '-')
         print(20*'-' + 'Student {} grade: {}/{}'.format(s, grades[s], total_points) + 20*'-' + '\n')
-
+    print("Grades:")
+    print(grades)
 if __name__ == '__main__':
     test()
