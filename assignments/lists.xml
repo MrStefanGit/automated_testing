@@ -1,0 +1,17 @@
+<xml>
+    <assignment name="lists">
+        <language>Python</language>
+        <title>Python Assignment 2</title>
+        <text>Create a function that recives two lists as parameters and retuns the common elements</text>
+        <parameters>a b</parameters>
+        <inputType>list</inputType>
+        <outputType>list</outputType>
+        <tests>
+            <test name="test1">
+                <input>[3,5,7,9] [1,2,3,4,5]</input>
+                <output>3 5</output>
+                <points>2</points>
+            </test>
+        </tests>
+    </assignment>
+</xml>

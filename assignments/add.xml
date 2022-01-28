@@ -4,6 +4,8 @@
         <title>Python Assignment 1</title>
         <text>Create a function that has two parameters ('a' and 'b') and returns a + b.</text>
         <parameters>a b</parameters>
+        <inputType>float</inputType>
+        <outputType>float</outputType>
         <tests>
             <test name="test1">
                 <input>3 5</input>
@@ -22,7 +24,7 @@
             </test>
             <test name="test4">
                 <input>3.3 5.7</input>
-                <output>10</output>
+                <output>9</output>
                 <points>2</points>
             </test>
             <test name="test5">
